@@ -19,7 +19,7 @@ export class ActionSheetPage implements OnInit {
 
   async presentActionSheet(){
     const actionSheet = await this.actionSheetCtrl.create ({
-      header:'dormir zzzzz',
+      header:'Opciones',
       backdropDismiss:false,
       cssClass: 'my-custom-class',
         buttons:[{
